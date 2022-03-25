@@ -4,11 +4,11 @@ import (
 	"context"
 	"crypto/ecdsa"
 	"fmt"
-	"math/big"
-
+	"github.com/aksaule-bagytzhanova/smart-contract-go-first/api"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"math/big"
 )
 
 func main() {
